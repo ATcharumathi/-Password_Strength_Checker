@@ -15,6 +15,7 @@ def generate_password(length=16):
         random.choice(uppercase),
         random.choice(lowercase),
         random.choice(digits),
+        random.choice(symbols)
     ]
 
     all_chars = uppercase + lowercase + digits + symbols
